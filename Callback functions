@@ -1,0 +1,16 @@
+function printVariable(Variable){
+    console.log(Variable);
+}
+
+function append(name, callback){
+    callback("Hello" + name);
+}
+
+append("Chinthaka",printVariable);
+
+printVariable(5+5)
+
+Console Output is below
+
+HelloChinthaka
+10
